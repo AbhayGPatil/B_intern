@@ -1,0 +1,5 @@
+plt.figure(figsize=(8, 8))
+df['area_type'].value_counts().plot(kind='pie', autopct='%1.1f%%', startangle=90)
+plt.title('Distribution of Area Types')
+plt.ylabel('')
+plt.show()
